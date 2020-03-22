@@ -1,6 +1,6 @@
-const client = new dsteem.Client('https://anyx.io');
+const client = new dsteem.Client('https://steem.61bts.com');
 const ssc = new SSC('https://api.steem-engine.com/rpc/');
-steem.api.setOptions({ url: 'https://anyx.io' });
+steem.api.setOptions({ url: 'https://steem.61bts.com' });
 
 // Checking if the already exists
 async function checkAccountName(username) {
